@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+h1 {
+    color: rgb(43, 41, 40);
+    font-size: 60px;
+    line-height: 78px;
+}
+
+h2 {
+    color: rgb(43, 41, 40);
+    font-size: 36px;
+    line-height: 46.8px;
+}
+
+h3 {
+    color: rgb(136, 139, 143);
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+h4 {
+    color: rgb(136, 139, 143);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+h5 {
+    color: rgb(43, 41, 40);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+h6 {
+    color: rgb(136, 139, 143);
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 400;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: rgb(71, 135, 250);
+    border: 1px solid rgb(71, 135, 250);
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+}
+
+.brand {
+    padding: 22px 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.brand span {
+    color: #4c8afa;
+}
+
+.navbar-list {
+    padding-top: 25px;
+}
+
+.navbar-list a {
+    padding-right: 40px;
+}
+
+.home {
+    display: flex;
+    height: 100vh;
+}
+
+.home div {
+    width: 50%;
+}
+
+.homeF {
+    padding: 0 9%;
+}
+
+.homeF h1 {
+    font-weight: 800;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.homeF h3 {
+    padding-bottom: 50px;
+}
+
+.homeS {
+    text-align: right;
+}
+
+.homeS img {
+    width: 100%;
+    padding-top: 130px;
+}
+
+.commonHome {
+    display: flex;
+    height: 80vh;
+}
+
+.commonS, .commonF {
+    width: 50%;
+}
+
+.commonHomeText {
+    padding: 20% 21%;
+}
+
+.companyLogos {
+    margin: 100px 0 0 150px;
+}
+
+.companyLogos img {
+    width: 150px;
+}
+
+.featuresHome {
+    height: 90vh;
+    text-align: center;
+}
+
+.fhSub {
+    background-color: #f3f9ff;
+    margin: 0 8.5%;
+    height: 80vh;
+    border-radius: 60px;
+}
+
+.fhSub h2 {
+    padding-top: 50px;
+}
+
+.fhSub h4 {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 100px;
+}
+
+.cards i {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.cards div {
+    margin: 0 auto;
+    width: 20%;
+}
+
+footer {
+    background-color: #90a6bc;
+    padding: 40px 8%;
+    color: #fff;
+}
+
+footer span {
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+footer a {
+    color: #fff;
+    padding-right: 30px;
+}
+
+.spanBlue {
+    color: #4787fa;
+}
+
+.slidebean {
+    text-align: center;
+    padding: 25px 0 0 0;
+    margin-top: 25px;
+    border-top: 1px solid #acc2d6;
+    color: #bccad3;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.social i {
+    padding-left: 30px;
+    font-size: 20px;
+}
