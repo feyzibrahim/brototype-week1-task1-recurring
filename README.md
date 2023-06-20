@@ -1,7 +1,7 @@
 # Basic HTML and css project
 
-## Developed as the first week task at brototype...
+### Developed as the first week task at brototype...
 
-## Only used HTML and CSS.
+### Only used HTML and CSS.
 
-### Cloned the website https://recurring.co/
+Cloned the website https://recurring.co/
