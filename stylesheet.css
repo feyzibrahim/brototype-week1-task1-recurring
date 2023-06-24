@@ -85,7 +85,7 @@ button:hover {
 
 .home {
     display: flex;
-    height: 110vh;
+    height: 100vh;
 }
 
 .home div {
@@ -150,9 +150,112 @@ button:hover {
     left: -75%;
 }
 
+.companyProfiles {
+    margin-top: 200px;
+    display: flex;
+    height: 90vh;
+    justify-content: left;
+}
+
+.ceo {
+    margin-left: 55px;
+    margin-top: 200px;
+}
+
+.relDiv {
+    position: relative;
+}
+
+.hallow-circle-2-red {
+    position: absolute;
+}
+
+.hallow-circle-2-blue {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.hallow-circle-2-blue-2 {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+}
+
+.hallow-circle-2-blue-3 {
+    position: absolute;
+    left: 35%;
+    bottom: 20%;
+}
+
+.hallow-circle-2-blue-4 {
+    position: absolute;
+    right: 10%;
+}
+
+.hallow-circle-3-blue {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.hallow-circle-3-blue-2 {
+    position: absolute;
+    z-index: -1;
+    right: 12%;
+    top: -5%;
+}
+
+.hallow-circle-3-blue-3 {
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+}
+
+.hallow-circle-3-violet {
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+}
+
+.hallow-circle-3-violet-2 {
+    position: absolute;
+    left: -5%;
+    bottom: 0;
+}
+
+.hallow-circle-4-pink {
+    position: absolute;
+    top: -25%;
+}
+
+.hallow-circle-4-blue {
+    position: absolute;
+    z-index: -1;
+    left: 10%;
+}
+
+.hallow-circle-4-violet {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+
+.hallow-circle-4-blue-2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.hallow-circle-4-blue-3 {
+    position: absolute;
+    right: 5%;
+    top: -5%;
+}
+
 .commonHome {
     display: flex;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .commonS, .commonF {
