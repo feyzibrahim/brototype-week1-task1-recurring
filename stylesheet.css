@@ -54,17 +54,6 @@ h6 {
     font-weight: 400;
 }
 
-button {
-    padding: 20px 50px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
-    color: rgb(71, 135, 250);
-    border: 1px solid rgb(71, 135, 250);
-    border-radius: 20px;
-    background-color: #fff;
-}
-
 button:hover {
     cursor: pointer;
     background-color: #b2cbe455;
@@ -76,16 +65,14 @@ button:hover {
     top: 0;
     width: 100%;
     background-color: #fff;
+    z-index: 5;
 }
 
 .brand {
-    padding: 22px 40px;
+    padding: 20px 20px 20px 40px;
     font-size: 20px;
     font-weight: 700;
-}
-
-.brand span {
-    color: #4c8afa;
+    width: 92px;
 }
 
 .navbar-list {
@@ -93,12 +80,12 @@ button:hover {
 }
 
 .navbar-list a {
-    padding-right: 40px;
+    padding: 20px;
 }
 
 .home {
     display: flex;
-    height: 100vh;
+    height: 110vh;
 }
 
 .home div {
@@ -106,26 +93,61 @@ button:hover {
 }
 
 .homeF {
-    padding: 0 9%;
+    padding: 0 8.55%;
 }
 
 .homeF h1 {
     font-weight: 800;
     padding-top: 200px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .homeF h3 {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+}
+
+.howItWorks {
+    padding: 16px 68px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    color: rgb(71, 135, 250);
+    border: 1px solid rgb(71, 135, 250);
+    border-radius: 20px;
+    background-color: #fff;
 }
 
 .homeS {
     text-align: right;
+    position: relative;
 }
 
 .homeS img {
-    width: 100%;
-    padding-top: 130px;
+    width: 652px;
+    padding-top: 122px;
+}
+
+.hallow-circle {
+    position: absolute;
+    top: 9%;
+    z-index: -1;
+}
+
+.hallow-circle svg {
+    width: 652px;
+}
+
+.hallow-circle-red {
+    position: absolute;
+    top: 16%;
+    right: 5%;
+    z-index: -1;
+}
+
+.hallow-circle-small-blue {
+    position: absolute;
+    bottom: 5%;
+    left: -75%;
 }
 
 .commonHome {
